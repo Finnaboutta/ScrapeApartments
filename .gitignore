@@ -1,0 +1,10 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+.venv.
+.venv
+
+# Python artifacts
+__pycache__/
+*.pyc
