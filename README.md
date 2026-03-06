@@ -2,6 +2,10 @@
 
 This script scrapes apartment listings from `viewit.ca` and `kijiji.ca`, keeps listings with `1+` bedrooms, and stores unique results in SQLite so duplicate listings are skipped on future runs.
 
+Then it will sync any new apartments that fit your parameters with your Trello board.
+
+Currently you won't be banned for using this - but that could change any day !
+
 ## Fields captured
 - Address
 - Number of bedrooms
